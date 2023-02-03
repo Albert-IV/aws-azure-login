@@ -22,6 +22,7 @@
   "scripts": {
     "start": "ts-node-dev src/index.ts",
     "build": "tsc",
+    "package": "npm run build",
     "watch": "tsc -w",
     "eslint": "eslint . --ext .ts",
     "prettier:write": "prettier --write \"src/**/*.{ts,json}\"",
